@@ -1,0 +1,12 @@
+server:
+  port: 8800
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 查看日志
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.39.10:3306/auth-boot?characterEncoding=utf-8&useSSL=false
+    username: dev
+    password: ?7h3{<+2{47!..H
